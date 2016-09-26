@@ -12,9 +12,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(new Myimage(getApplicationContext() ));
+        setContentView(R.layout.activity_main);
     }
-
+}
 /*    class MyImage extends View {
         MyImage(Context context) {
             super(context);//view를 상속받으면 무조건 이 생성자구문이 필요함! default생성자가 없어
@@ -35,4 +35,4 @@ public class MainActivity extends AppCompatActivity {
             canvas.drawBitmap(picture,x,y,null);
         }
     }*/
-}
+
